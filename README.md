@@ -2,7 +2,7 @@
  
  **当前并未加入 Maven中央仓库，请使用Maven本地Package打包并安装使用**
  
- 如果未了解平台鉴权体系，请先查看[文档](https://www.hanclouds.com/doc/2-authentication/index).
+ 如果未了解平台鉴权体系，请先查看[文档](https://console-ls.hanclouds.com/doc/summary/auth.html).
  
 ## Demo案例
  
@@ -29,5 +29,3 @@ if (response != null) {
 在SDK中，平台每一个API都被封装成 `XXXRequest` 对象，被 `HanCloudsClient` 执行后，将返回对应的Response，方便使用，不必再进一步自行封装了。
 
 具体请使用对应IDE打开SDK查看。package路径 `main.java.com.hanclouds.req`。
-
-有任何疑问请加入QQ用户交流群：`587234791` 或者到社区直接发帖提问。[https://www.hanclouds.com/bbs](https://www.hanclouds.com/bbs)
